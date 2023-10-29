@@ -1,6 +1,6 @@
 import tkinter as tk
 from settings import WIDTH, HEIGHT, TITLE, ICON
-from add_todo import add_todo
+from logic import add_todo
 
 window = tk.Tk()
 

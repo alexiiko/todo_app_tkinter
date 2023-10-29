@@ -23,6 +23,7 @@ def add_todo(master):
 
                 nonlocal todo_counter
                 todo_counter -= 1
+                todo_list.pop(todo_counter)
 
             todo_counter += 1
             todo_frame = tk.Frame(master=todo_area)
